@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Lateef:wght@200&family=Sriracha&display=swap');
+      </style>
+  <title>Menú</title>
+</head>
+<body>
+  <h1>Menú</h1>
+  <div class="banerimage">
+    
+      <img src="WhatsApp Image 2023-01-10 at 1.20.13 PM.jpeg" width="50%">
+  </div>
+  <section id="menu">
+    <ul>
+      <li>
+        <button class="product-btn" onclick="toggleProduct('product-3')">Hamburguesas</button>
+        <div class="product" id="product-3" style="display: none;">
+          <ol>
+            <li>
+              <div>
+                <h3>Cheese And Bacon</h3>
+                <p>Carne, doble queso tipo Americano, doble tocineta, cebolla y pepinillos</p>
+                <p>Precio: 4.00 $</p>
+                <div class="fotodelproducto">
+                  <img src="20221020034012.jpeg" alt="Imagen de la opción 1">
+                </div>
+              </div>  
+            </li>
+            <li>
+              <div>
+                <h3>Americana</h3>
+                <p>Carne, queso tipo Americano, tocineta, cebolla y pepinillos.</p>
+                <p>Precio: 3.50 $</p>
+                <div class="fotodelproducto">
+                  <img src="20221020034012.jpeg" alt="Imagen de la opción 2">
+                </div>  
+              </div>  
+            </li>
+            <li>
+              <div>
+                <h3>Mushroom</h3>
+                <p>Carne, champiñones, queso fundido, tocineta, cebolla, pepinillos y tomate</p>
+                <p>Precio: 4.00 $</p>
+                <div class="fotodelproducto">
+                  <img src="20221020034012.jpeg" alt="Imagen de la opción 1">
+                </div>
+              </div>  
+            </li>
+            <li>
+              <div>
+                <h3>Street Burguer</h3>
+                <p>Carne, queso mozzarella, tocineta, huevo, papas fosforito, cebolla y tomate.</p>
+                <p>Precio: 4.00 $</p>
+                <div class="fotodelproducto"> 
+                  <img src="20221020034012.jpeg" alt="Imagen de la opción 2">
+                </div>
+              </div>
+            <li>
+              <div>
+                <h3>Spicy</h3>
+                <p>Carne, queso tipo Americano, tocineta, cebolla, tomate, jalapeños y pepinillos</p>
+                <p>Precio: 4.00 $</p>
+              </div>
+              <div class="fotodelproducto">
+                <img src="20221020034012.jpeg" alt="Imagen de la opción 1">
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Crispy</h3>
+                <p>Pechuga crispi, queso tipo Americano, tocineta, aros de cebolla y tomate</p>
+                <p>Precio: 4.50$</p>
+              </div>
+              <div class="fotodelproducto">
+                <img src="20221020034012.jpeg" alt="Imagen de la opción 2">
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Crispy Jumbo</h3>
+                <p>Pechuga crispy queso frito, tocineta, tomate y aros de cebolla</p>
+                <p>Precio: 6.00 $</p>
+              </div>
+              <div class="fotodelproducto">
+                <img src="20221020034012.jpeg" alt="Imagen de la opción 1">
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Chickens</h3>
+                <p>Milanesa de pollo, queso tipo Americano, tocineta, cebolla, tomate, pepinillos y champiñones salteados</p>
+                <p>Precio: 4.00 $</p>
+              </div> 
+              <div class="fotodelproducto">
+                <img src="20221020034012.jpeg" alt="Imagen de la opción 2">
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Pork Burger</h3>
+                <p>Carne de cerdo, queso tipo Americano, tocineta, tomate y cebolla caramelizada</p>
+                <p>Precio: 4.00 $</p>
+              </div>
+              <div class="fotodelproducto">
+                <img src="20221020034012.jpeg" alt="Imagen de la opción 1">
+              </div>  
+            </li>
+            <li>
+              <div>
+                <h3>Sweet Burger</h3>
+                <p>Carne, queso Americano, tomate, tocineta caramelizada y cebolla caramelizada</p>
+                <p>Precio: $12</p>
+              </div>
+              <div class="fotodelproducto">  
+              <img src="20221020034012.jpeg" alt="Imagen de la opción 2">
+              </div>
+            </li>
+          </ol>
+        </div>
+      </li>
+
+      <li>
+        <button class="product-btn" onclick="toggleProduct('product-4')">Especiales</button>
+        <div class="product" id="product-4" style="display: none;">
+          <ol>
+            <li>
+              <h3>4 tenders acompañados de 150g de papas</h3>
+              <p>Precio: 6.00 $</p>
+              <div class="fotodelproducto">
+                <img src="alitas.png" alt="Imagen de la opción 1">
+              </div>
+            </li>
+
+            <li>
+              <h3>6 deditos de queso</h3>
+              <p>Precio: 3.00 $</p>
+              <div class="fotodelproducto">
+                <img src="alitas.png" alt="Imagen de la opción 1">
+              </div>
+            </li>
+
+            <li>
+              <h3>6 aros de cebolla</h3>
+              <p>Precio: 1.50 $</p>
+              <div class="fotodelproducto">
+                <img src="alitas.png" alt="Imagen de la opción 1">
+              </div>
+            </li>
+          </ol>
+        </div>
+      </li>
+
+      <li>
+        <button class="product-btn" onclick="toggleProduct('product-1')">Papas</button>
+        <div class="product" id="product-1" style="display: none;">
+          <ol>
+            <li>
+              <div>
+                <h3>Papas Cheese And Bacon</h3>
+                <p>300g de papas a la francesa, queso fundido y tocineta</p>
+                <p>Precio: 4.00 $</p>
+              </div>
+              <div class="fotodelproducto">
+                <img src="patatas-fritas-.webp" alt="Imagen de la opción 1">
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <h3>Papas Mushroom</h3>
+                <p>300g de papas a la francesa, champiñones, queso fundido, tocineta y jalapeños</p>
+                <p>Precio: 4.00 $</p>
+              </div>  
+              <div class="fotodelproducto">
+                <img src="patatas-fritas-.webp" alt="Imagen de la opción 1">
+              </div>
+            </li>
+            <li>
+              <div>
+                <h3>Papas a la Francesa</h3>
+                <p>Porcion de 100g ó Porcion de 200g</p>
+                <p>Precio: 1.00 $ / 2.00 $</p>
+              </div>  
+              <div class="fotodelproducto">
+                <img src="patatas-fritas-.webp" alt="Imagen de la opción 1">
+              </div>
+            </li>
+          </ol>
+        </div>
+      </li>
+
+      <li>
+        <button class="product-btn" onclick="toggleProduct('product-2')">Alitas</button>
+        <div class="product" id="product-2" style="display: none;">
+          <ol>
+            <li>
+              <h3>Servicio de 6 unidades</h3>
+              <p>Precio: 4.00 $</p>
+              <div class="fotodelproducto">
+                <img src="alitas.png" alt="Imagen de la opción 1">
+              </div>
+            </li>
+            <li>
+              <h3>Servicio de 10 unidades</h3>
+              <p>Precio: 5.50 $</p>
+              <div class="fotodelproducto">
+                <img src="alitas.png" alt="Imagen de la opción 1">
+              </div>
+            </li>
+            <li>
+              <h3>Servicio de 14 unidades</h3>
+              <p>Precio: 8.00 $</p>
+              <div class="fotodelproducto">
+                <img src="alitas.png" alt="Imagen de la opción 1">
+              </div>
+            </li>
+            <li>
+              <h3>Servicio de 20 unidades</h3>
+              <p>Precio: 12.00 $</p>
+              <div class="fotodelproducto">
+                <img src="alitas.png" alt="Imagen de la opción 1">
+              </div>
+            </li>
+          </ol>
+        </div>
+      </li>
+    
+
+      
+    </ul>
+
+    <a href="https://wa.link/4b13fl" target="_blank"><button class="whatsapp"></button></a>
+      
+      <script>
+      function toggleProduct(productId) {
+        var productElement = document.getElementById(productId);
+        if (productElement.style.display === "none") {
+          productElement.style.display = "block";
+        } else {
+          productElement.style.display = "none";
+        }
+      }
+      </script>
+    
+</body>
+</html>
